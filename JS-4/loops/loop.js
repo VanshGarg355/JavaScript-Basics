@@ -21,10 +21,32 @@ do{
 console.log(`Hello ${usernaam}`);
 
 
-//for loop = repeat some code a limitem amount of times
+//for loop = repeat some code a limited amount of times
 
 for (let i=0;i<=2;i++){
 console.log(i);
 }
 console.log("happy new year");
 
+
+
+for(let j=1;;j+2){  //it's consider infinite 
+    console.log(j);
+    if(j>10){
+        break;
+    }
+}
+
+for(;;){  //it's consider infinite 
+    console.log(j);
+    if(j>10){
+        break;
+    }
+    console.log(j);
+    j+=2;
+}
+
+
+let sum=0;
+for(let i=0;i<=9;i++,sum+=i);
+console.log(sum);
