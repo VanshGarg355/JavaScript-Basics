@@ -40,9 +40,9 @@ const food5 = "ramen";
 
 openFridge(food1, food2, food3, food4, food5);
 
-const foods = getFood(food1, food2, food3, food4, food5);
+const foodss = getFood(food1, food2, food3, food4, food5);
 
-console.log(foods);
+console.log(foodss);
 
 
 

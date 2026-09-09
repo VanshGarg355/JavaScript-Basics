@@ -16,7 +16,7 @@ document.getElementById("mysubmit").onclick = function () {
 }
 
 //TYPE CONVERSION
-//change the data type of a value to anotehr (strings , numbers, booleans)
+//change the data type of a value to another (strings , numbers, booleans)
 
 
 let age = window.prompt("How old are you?");
