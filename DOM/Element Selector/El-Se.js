@@ -5,14 +5,14 @@
 // 3. document.getElementsByTagName() // HTML COLLECTION
 // 4. document.querySelector()        // ELEMENT OR NULL
 // 5. document.querySelectorAll()     // NODELIST
-//1
+//ex-1
 const myHeading = document.getElementById("my-heading ");
 myHeading.style.backgroundColor = "yellow";
 myHeading.style.textAlign = "center";
 
 console.log(myHeading);
 
-//2
+//ex-2
 
 const fruits = document.getElementsByClassName("fruits");
 
@@ -20,7 +20,7 @@ Array.from(fruits).forEach((fruit) => {
   fruit.style.backgroundColor = "yellow";
 });
 
-//3
+//ex-3
 
 const h4Elements = document.getElementsByTagName("h4");
 const liElements = document.getElementsByTagName("li");
@@ -33,13 +33,13 @@ Array.from(liElements).forEach((liElement) => {
   liElement.style.backgroundColor = "lightgreen";
 });
 
-//4
+//ex-4
 
 const element = document.querySelector("ol");
 
 console.log(element);
 
-//5
+//ex-5
 const foods = document.querySelectorAll("li");
 
 foods.forEach((food) => {
