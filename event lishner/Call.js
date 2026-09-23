@@ -1,20 +1,19 @@
 const s1 = {
-  firstName: "vansh",
-  lastName: "garg",
-  age: 19,
+  firstName: "Vansh",
+  lastName: "Garg",
 };
 
 const s2 = {
-  firstName: "kashmiri",
-  lastName: "pandit",
-  age: 21,
+  firstName: "Kashmiri",
+  lastName: "Pandit",
 };
 
-function introduce(city) {
+function introduce(city, age) {
   console.log(
-    `Hello, my name is ${firstName} ${this.lastName} and i live in ${city}`,
+    `Hello, my name is ${this.firstName} ${this.lastName} and I live in ${city}. I am ${age} years old.`,
   );
 }
 
-introduce.call(s1, "delhi");
-introduce.call(s2, "MZN");
+// call()
+introduce.call(s1, "Delhi", 24);
+introduce.call(s2, "Muzaffarnagar", 25);
