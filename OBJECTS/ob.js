@@ -1,12 +1,12 @@
 // object = a collection of related properties and methods can represent a real world object like a car, person, or dog.
-
+//Also called Disk keyword
 const person = {
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 30,
-    sayHello: function() {
-        console.log(`Hello, my name is ${this.firstName} ${this.lastName}`); 
-    }
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+  sayHello: function () {
+    console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
+  },
 };
 console.log(person.firstName);
 console.log(person.lastName);
